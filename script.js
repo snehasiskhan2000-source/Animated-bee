@@ -21,7 +21,7 @@ loader.load('bee.glb', function (gltf) {
     
     // IMPORTANT: IF YOUR BEE IS INVISIBLE, CHANGE THESE NUMBERS.
     // Try 10, 10, 10 if it's too small. Try 0.01, 0.01, 0.01 if it's too big.
-    beeModel.scale.set(50, 50, 50); 
+    beeModel.scale.set(0.1, 0.1, 0.1); 
     
     // Start position (Hero section: Right side)
     beeModel.position.set(3, 0, 0); 
